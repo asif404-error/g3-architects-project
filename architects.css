@@ -7,7 +7,40 @@
 }
 
 /* Shared Styles */
+.display-flex{
+    display: flex;
+}
+
+/* Dark-01 */
+.text-black{
+    color: #131313;
+}
+/* Dark-02 */
+.text-gray{
+    color: #424242;
+}
+/* Dark-03 */
+.text-light-gray{
+    color: #727272;
+}
 
 /* Header Styles */
 
 /* navbar related styles */
+.navbar{
+
+}
+
+.nav-links{
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
