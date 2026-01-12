@@ -1,3 +1,13 @@
+/* In the standard CSS font-weight scale:
+100  Thin
+200  Extra Light
+300  Light
+400  Regular
+500  Medium
+600  Semi-bold
+700  Bold
+800  Extra Bold
+900  Black */
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
@@ -27,6 +37,16 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 /* Header Styles */
 
 /* navbar related styles */
@@ -36,8 +56,8 @@
 }
 
 .brand{
-    font-weight:bold;
-    font-size:2.8rem;
+    font-weight: bold; /* bold-700 */
+    font-size: 2.8rem;
 }
 
 .nav-item{
@@ -53,4 +73,22 @@
 .navbar, .banner{
     max-width:1440px;
     margin:0, auto;
+}
+
+/* banner related styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
 }
