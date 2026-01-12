@@ -92,3 +92,12 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    
+}
