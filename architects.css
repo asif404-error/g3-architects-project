@@ -141,6 +141,13 @@ main>section{
     font-size: 1rem;
 }
 
+/* feature section related styles */
+
+.feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
 /* Some facts related styles */
 
 .facts-container{
