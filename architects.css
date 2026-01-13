@@ -210,15 +210,16 @@ main>section{
         grid-template-columns: 1fr;
     }
 
-    .facts-container{
+    .facts-container,
+    .sponsor-companies{
         justify-items: center;
         gap:24px;
     }
 
-    .sponsor-companies{
+    /* .sponsor-companies{
         justify-items: center;
         gap: 50px;
-    }
+    } */
 
     .our-features{
         margin-left: 20px;
